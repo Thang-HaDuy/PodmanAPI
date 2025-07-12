@@ -1,14 +1,15 @@
-# Podman Manager API
+# PodmanAPI
 
-A simple FastAPI-based API to manage Podman containers and pods.
+A REST API built with FastAPI to manage Podman resources (containers, pods, images, networks, volumes).
 
-## Prerequisites
-- Python 3.11+
-- Podman installed and running
-- Podman socket enabled (`systemctl --user enable --now podman.socket`)
+## Features
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd podman_manager
+- List and manage containers, pods, images, networks, and volumes.
+- Support for IPv4/IPv6 network configurations.
+- Volume management for persistent storage.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
